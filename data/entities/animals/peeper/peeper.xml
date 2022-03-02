@@ -103,6 +103,16 @@
         >
     </SpriteComponent>
 
+    <SpriteComponent 
+        _tags="character" 
+        alpha="1" 
+        emissive="1" 
+        image_file="data/entities/animals/peeper/emissive.xml" 
+        next_rect_animation="" 
+        rect_animation="walk" 
+        >
+    </SpriteComponent>
+
     <CameraBoundComponent
         max_count="64"
         distance="2000"

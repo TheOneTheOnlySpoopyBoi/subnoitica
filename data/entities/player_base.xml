@@ -128,8 +128,8 @@
   ></ControlsComponent>
   
   <DamageModelComponent 
-    air_in_lungs="14" 
-    air_in_lungs_max="14" 
+    air_in_lungs="32" 
+    air_in_lungs_max="32" 
     air_lack_of_damage="0.3" 
     air_needed="1" 
     falling_damage_damage_max="1.2" 
@@ -211,7 +211,7 @@
     transform_with_scale="1"
   ></HotspotComponent>
 
-  <Entity name="arm_r">
+  <Entity name="arm_r" tags="player_arm_r">
 
     <SpriteComponent 
       _tags="with_item" 
@@ -348,6 +348,13 @@
   <VelocityComponent
     updates_velocity="0"
   ></VelocityComponent>
+
+  <!-- belt -->
+  
+  <HotspotComponent
+    _tags="belt_root"
+    sprite_hotspot_name="belt"
+  ></HotspotComponent>
   
   <!-- ingestion -->
 

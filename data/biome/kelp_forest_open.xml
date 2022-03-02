@@ -9,8 +9,8 @@
     lua_script="data/scripts/biomes/kelp_forest.lua"
     wang_map_width="260"
     wang_map_height="260"
-    audio_music_2="fungicave"
-    audio_ambience="fungicave"
+    audio_music_2="coalmine"
+    audio_ambience="coalmine"
   >
   </Topology>
 

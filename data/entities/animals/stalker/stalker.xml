@@ -128,7 +128,7 @@
 		image_file="data/entities/animals/stalker/body3.png" 
 		next_rect_animation="" 
 		offset_x="7" 
-		offset_y="10" 
+		offset_y="9" 
 		update_transform="0"
 		 >
 	</SpriteComponent>
@@ -139,7 +139,7 @@
 		image_file="data/entities/animals/stalker/tail.png" 
 		next_rect_animation="" 
 		offset_x="7" 
-		offset_y="9" 
+		offset_y="5" 
 		update_transform="0"
 		 >
 	</SpriteComponent>
